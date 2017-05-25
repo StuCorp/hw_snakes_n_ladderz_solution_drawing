@@ -1,0 +1,16 @@
+What is different from the way you tried to solve the problem?
+- so many. 
+* we thought about using key-value pairs for snake positions
+* the separate viewer
+* in the solution SnakesAndLadders initialises all the class instances and then Game runs the logic of the game - those functions were not separate for us
+* the user i/o was also not separated (Viewer class) in ours; rather just strung throughout
+
+Are there any parts you don't understand?
+* i was finding  it hard to follow the labyrinth of functions in Game, starting with next turn(), but i think i get it now. 
+
+Testing - why has the dice class not been tested?
+* can't test, that is predict, the output of a psuedo-randomiser function, unless you are Sam DaBell.
+
+Why is all of the 'puts'-ing in one viewer class?
+*keeps it clean
+*works with a log file; designed to fit it
